@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — never commit raw datasets
+data/raw/
+data/processed/
+*.tsv
+*.csv
+!data/sample/*.csv
+
+# BILMA vocabulary files (large, download separately)
+bilma/
+vocabulary/
+*.pkl
+*.pickle
+
+# Model checkpoints (large files — use HuggingFace Hub)
+checkpoints/
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Logs & outputs
+logs/
+runs/
+output/
+results/*.png
+results/*.pdf
+wandb/
+mlruns/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets — NEVER commit API keys or tokens
+.env
+*.env
+secrets.json
+hf_token.txt
+
+# Optuna
+optuna_study.db

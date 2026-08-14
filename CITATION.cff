@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: article
+
+title: >
+  Evaluación del Sesgo Dialectal en Español para la Detección de
+  Toxicidad mediante BETO y Enriquecimiento Léxico Dialectal basado en BILMA
+
+authors:
+  - family-names: "Hernández Hernández"
+    given-names: "Ana Lizbeth"
+    affiliation: "Universidad Politécnica de Atlacomulco"
+  - family-names: "Martínez Cobos"
+    given-names: "Brian Leonardo"
+    affiliation: "Universidad Politécnica de Atlacomulco"
+  - family-names: "López Aguilar"
+    given-names: "José Eduardo"
+    affiliation: "Universidad Politécnica de Atlacomulco"
+
+journal: "Portal de la Ciencia"
+year: 2026
+url: "https://github.com/YOUR_USERNAME/dialectlex-spanish"
+
+keywords:
+  - dialectal bias
+  - Spanish NLP
+  - toxicity detection
+  - BETO
+  - BILMA
+  - DialectLex
+  - hate speech
+  - fairness in AI
+
+license: Apache-2.0
